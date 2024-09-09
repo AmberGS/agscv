@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    background-color: darkgray;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    border-bottom-style: solid;
+    border-bottom-color:purple;
+    align-items:center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    font-style:italic;
+}
+
+section.splash{
+    h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display:flex;
+        justify-content:center;
+        font-size:36px;
+    }
+    img{
+        border-style: solid;
+        border-width: 5px;
+        border-color: purple;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:18px;
+    }
+}
+
+hr{
+    border-style:solid;
+    border-width: 3px;
+    border-color:purple;
+}
+
+section{
+
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display:flex;
+        justify-content:center;
+        font-size:36px;
+    }
+    
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:18px;
+    }
+    dl{
+        background-color: gray;
+        border-bottom-style:solid;
+        border-top-style:solid;
+        border-color:purple;
+        border-left: 5px;
+        display:grid;
+        gap: 5px;
+        grid-template-columns: max-content 1fr;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color:darkgreen;
+}
+a:visited{
+    color:darkgreen;
+}
+a:hover{
+    color:lightgreen;
+}
+
+section.not-three-col{
+    ul{
+        background-color: gray;
+        border-bottom-style:solid;
+        border-top-style:solid;
+        border-color:purple;
+        border-left: 5px;
+    }
+}
+
+section.three-col{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.card{
+    background-color:black;
+    color:lightgray;
+    box-shadow: 10px 10px;
+    outline: 3px solid purple;
+    img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+}
+section.one-col{
+    display:flex;
+    justify-content:center;
+    div.contactform{
+        background-color:black;
+        color:lightgray;
+        outline: 3px solid purple;
+        box-shadow: 10px 10px;
+    }
+}
